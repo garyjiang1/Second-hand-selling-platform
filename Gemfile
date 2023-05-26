@@ -17,6 +17,7 @@ group :development, :test do
   gem 'omniauth-google-oauth2'
   gem 'omniauth-rails_csrf_protection'
   gem 'pry'
+  gem 'rubocop', require: false
 end
 
 group :test do
@@ -25,6 +26,7 @@ group :test do
   gem 'factory_girl_rails'
   gem 'simplecov', :require => false
 end
+
 group :production do
   gem 'pg'
   gem 'omniauth'
