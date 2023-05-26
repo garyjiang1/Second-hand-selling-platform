@@ -55,3 +55,7 @@ build-iPhoneSimulator/
 .env
 # Used by RuboCop. Remote config files pulled in from inherit_from directive.
 # .rubocop-https?--*
+
+# Ignore .idea folder and .dststore files
+.idea/
+*.DS_Store
