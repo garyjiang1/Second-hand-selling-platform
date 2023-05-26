@@ -1,0 +1,47 @@
+<!-- Product section-->
+<section class="py-5">
+    <div class="container px-4 px-lg-5 my-5">
+        <div class="row gx-4 gx-lg-5 align-items-center">
+            <div class="col-md-4"><img class="card-img-top mb-5 mb-md-0" src="https://st.depositphotos.com/1605004/3032/v/600/depositphotos_30323235-stock-illustration-great-deal-stamp.jpg" alt="..." /></div>
+            <div class="col-md-6">
+                <div class="small mb-1"><%= @post.category %></div>
+                <h1 class="display-5 fw-bolder"><%= @post.title %></h1>
+                <div class="fs-4 mb-5">
+                    <span>posted by <%= link_to "#{@post.author}", other_profile_path(@userid) %></span>
+                </div>
+                <p class="lead"><%= @post.content %></p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="detail_btns container px-6 px-lg-5">
+  <% if @post.author_id == @current_user_id.to_s %>
+  <div class="btn-toolbar" role="group" aria-label="Basic example">
+    <%= link_to 'Edit', edit_post_path(@post), :class => 'btn btn-outline-info col-2' %> &nbsp;&nbsp;
+    <%= button_to "Offshelf", delete_post_path(@post), :class => 'btn btn-outline-danger', :method =>:delete %> &nbsp;&nbsp;
+  <% end %>
+  <%= link_to 'Back to Homepage', posts_path, :class => 'btn btn-outline-info col-2' %>
+  </div>
+</div>
+
+<div class="container px-6 px-lg-5">
+  <% @post.comments.each do |comment| %>
+        <p><%= link_to "#{comment.author}", other_profile_path(comment.author_id) %> at <%= comment.created_at %>:</p>
+        <p><%= comment.content %></p>
+        <hr style="text-align:left;margin-left:0">
+  <% end %>
+</div>
+
+<div class="comment_header container px-6 px-lg-5">Leave your comments:</div>
+<%= form_tag add_comment_path, :class => 'form' do %>
+  <br/>
+  <div class="comment_form container px-6 px-lg-5">
+    <%= text_area :comment, 'content', :class => 'form-control', :id => 'comment-content-box' %>
+  </div>
+
+  <div class="comment_btns">
+    <%= submit_tag 'Save', :class => 'btn btn-outline-info' %>
+    <%= link_to 'Cancel', show_post_path, :class => 'btn btn-outline-secondary' %>
+  </div>
+<% end %>

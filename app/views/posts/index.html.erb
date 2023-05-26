@@ -1,0 +1,81 @@
+<!--  This file is app/views/posts/index.html.erb -->
+
+<header class="bg-dark py-5">
+  <div class="container px-4 px-lg-5 my-5">
+      <div class="text-center text-white">
+          <h1 class="display-4 fw-bolder">Welcome to Lionlist</h1>
+          <p class="lead fw-normal text-white-50 mb-0">A craigslist forum designed by Columbia students, for Columbia students</p>
+      </div>
+  </div>
+</header>
+<div class="page_name">All Posts</div> 
+<%= @current_user_id %>
+
+<div class="filter">
+  <%= form_tag posts_path, method: :get, :class => 'form' do %>
+    <div class="row g-5">
+      <div class="col-sm">
+        <div class="form-floating">
+          <%= text_field_tag(:author, @author, :class => "form-control", :id => "authorFilter", :placeholder => "Author") %>
+          <%= label_tag(:author, "Author", :for => "authorFilter") %>
+        </div>
+      </div>
+      <div class="col-md">
+        <div class="form-floating">
+          <%= select_tag(:category, options_for_select([["", ""], ['furniture', 'furniture'], ['sublease', 'sublease']], selected: @category || nil), :id => "categoryFilter", :class => "form-select") %> 
+          <%= label_tag(:category, "Category", :for => "categoryFilter") %>
+        </div>
+      </div>
+      <div class="col-md">
+        <div class="form-floating">
+          <%= select_tag(:sort_by, options_for_select([['', ''], ['most recent', 'created date'], ['title', 'title'], ['category', 'category'], ['author', 'author']], selected: @sort_by || nil), :id => "sortFilter", :class => "form-select") %> 
+          <%= label_tag(:sort_by, "Sort By", :for => "sortFilter") %>
+        </div>
+      </div>
+      <div class="col-md">
+        <div class="form-floating">
+          <%= text_field_tag(:title, @title, :class => "form-control", :id => "titleFilter", :placeholder => "Title") %>
+          <%= label_tag(:title, "Title", :for => "titleFilter") %>
+        </div>
+      </div>
+      <div class="col-md">
+          <%= submit_tag "Search", :class => 'filter-btn btn btn-outline-success' %>
+      </div>
+    </div>
+  <% end %>
+</div>
+
+<section class="py-2">
+  <div class="container px-4 px-lg-5 mt-5">
+    <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+      <% @posts.each do |post| %>
+        <div class="col mb-5">
+          <div class="card h-100">
+            <!-- Product image-->
+            <img class="card-img-top" src="https://st.depositphotos.com/1605004/3032/v/600/depositphotos_30323235-stock-illustration-great-deal-stamp.jpg" alt="..." />
+            <!-- Product details-->
+            <div class="card-body p-1">
+                <div class="text-center">
+                    <!-- Post title-->
+                    <h5 class="fw-bolder" style="margin-bottom: 0;"><%= post.title %></h5>
+                    <%= post.author %>
+                </div>
+            </div>
+            <!-- Product actions-->
+            <div class="card-footer p-2 pt-0 border-top-0 bg-transparent">
+                <div class="text-center" style="margin-bottom: 5px;">
+                  <%= link_to "More about #{post.title}", post_path(post), :class => 'detail_btn btn btn-outline-info btn-sm' %>
+                </div>
+                <div class="text-center">
+                <%= button_to "Request Deal", add_deal_path(post), :class => 'btn btn-outline-success btn-sm', :method =>:post %>
+              </div>
+            </div>
+          </div>                    
+        </div>
+      <% end %> 
+    </div>
+  </div>
+</section>
+<div class="new_post">
+  <%= link_to "Add new post", new_post_path, :class => 'new_post_btn btn btn-outline-info'%>
+</div>
