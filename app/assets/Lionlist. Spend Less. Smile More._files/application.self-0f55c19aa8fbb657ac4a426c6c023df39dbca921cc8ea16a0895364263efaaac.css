@@ -11,8 +11,6 @@
  * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
  * file per style scope.
  *
-
-
  */
 /*!
  * Bootstrap v3.4.1 (https://getbootstrap.com/)
@@ -20,19 +18,19 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
-/* line 9, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_normalize.scss */
+/* line 9  */
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
 
-/* line 19, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_normalize.scss */
+/* line 19  */
 body {
   margin: 0;
 }
 
-/* line 33, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_normalize.scss */
+/* line 33  */
 article,
 aside,
 details,
@@ -49,7 +47,7 @@ summary {
   display: block;
 }
 
-/* line 54, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_normalize.scss */
+/* line 54  */
 audio,
 canvas,
 progress,
@@ -58,65 +56,65 @@ video {
   vertical-align: baseline;
 }
 
-/* line 67, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_normalize.scss */
+/* line 67  */
 audio:not([controls]) {
   display: none;
   height: 0;
 }
 
-/* line 77, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_normalize.scss */
+/* line 77  */
 [hidden],
 template {
   display: none;
 }
 
-/* line 89, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_normalize.scss */
+/* line 89  */
 a {
   background-color: transparent;
 }
 
-/* line 98, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_normalize.scss */
+/* line 98  */
 a:active,
 a:hover {
   outline: 0;
 }
 
-/* line 111, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_normalize.scss */
+/* line 111  */
 abbr[title] {
   border-bottom: none;
   text-decoration: underline;
   text-decoration: underline dotted;
 }
 
-/* line 121, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_normalize.scss */
+/* line 121  */
 b,
 strong {
   font-weight: bold;
 }
 
-/* line 130, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_normalize.scss */
+/* line 130  */
 dfn {
   font-style: italic;
 }
 
-/* line 139, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_normalize.scss */
+/* line 139  */
 h1 {
   font-size: 2em;
   margin: 0.67em 0;
 }
 
-/* line 148, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_normalize.scss */
+/* line 148  */
 mark {
   background: #ff0;
   color: #000;
 }
 
-/* line 157, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_normalize.scss */
+/* line 157  */
 small {
   font-size: 80%;
 }
 
-/* line 165, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_normalize.scss */
+/* line 165  */
 sub,
 sup {
   font-size: 75%;
@@ -125,43 +123,43 @@ sup {
   vertical-align: baseline;
 }
 
-/* line 173, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_normalize.scss */
+/* line 173  */
 sup {
   top: -0.5em;
 }
 
-/* line 177, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_normalize.scss */
+/* line 177  */
 sub {
   bottom: -0.25em;
 }
 
-/* line 188, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_normalize.scss */
+/* line 188  */
 img {
   border: 0;
 }
 
-/* line 196, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_normalize.scss */
+/* line 196  */
 svg:not(:root) {
   overflow: hidden;
 }
 
-/* line 207, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_normalize.scss */
+/* line 207  */
 figure {
   margin: 1em 40px;
 }
 
-/* line 215, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_normalize.scss */
+/* line 215  */
 hr {
   box-sizing: content-box;
   height: 0;
 }
 
-/* line 224, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_normalize.scss */
+/* line 224  */
 pre {
   overflow: auto;
 }
 
-/* line 232, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_normalize.scss */
+/* line 232  */
 code,
 kbd,
 pre,
@@ -170,7 +168,7 @@ samp {
   font-size: 1em;
 }
 
-/* line 255, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_normalize.scss */
+/* line 255  */
 button,
 input,
 optgroup,
@@ -181,18 +179,18 @@ textarea {
   margin: 0;
 }
 
-/* line 269, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_normalize.scss */
+/* line 269  */
 button {
   overflow: visible;
 }
 
-/* line 280, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_normalize.scss */
+/* line 280  */
 button,
 select {
   text-transform: none;
 }
 
-/* line 293, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_normalize.scss */
+/* line 293  */
 button,
 html input[type="button"],
 input[type="reset"],
@@ -201,79 +199,79 @@ input[type="submit"] {
   cursor: pointer;
 }
 
-/* line 305, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_normalize.scss */
+/* line 305  */
 button[disabled],
 html input[disabled] {
   cursor: default;
 }
 
-/* line 314, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_normalize.scss */
+/* line 314  */
 button::-moz-focus-inner,
 input::-moz-focus-inner {
   border: 0;
   padding: 0;
 }
 
-/* line 325, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_normalize.scss */
+/* line 325  */
 input {
   line-height: normal;
 }
 
-/* line 337, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_normalize.scss */
+/* line 337  */
 input[type="checkbox"],
 input[type="radio"] {
   box-sizing: border-box;
   padding: 0;
 }
 
-/* line 349, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_normalize.scss */
+/* line 349  */
 input[type="number"]::-webkit-inner-spin-button,
 input[type="number"]::-webkit-outer-spin-button {
   height: auto;
 }
 
-/* line 359, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_normalize.scss */
+/* line 359  */
 input[type="search"] {
   -webkit-appearance: textfield;
   box-sizing: content-box;
 }
 
-/* line 370, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_normalize.scss */
+/* line 370  */
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
 }
 
-/* line 379, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_normalize.scss */
+/* line 379  */
 fieldset {
   border: 1px solid #c0c0c0;
   margin: 0 2px;
   padding: 0.35em 0.625em 0.75em;
 }
 
-/* line 390, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_normalize.scss */
+/* line 390  */
 legend {
   border: 0;
   padding: 0;
 }
 
-/* line 399, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_normalize.scss */
+/* line 399  */
 textarea {
   overflow: auto;
 }
 
-/* line 408, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_normalize.scss */
+/* line 408  */
 optgroup {
   font-weight: bold;
 }
 
-/* line 419, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_normalize.scss */
+/* line 419  */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 424, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_normalize.scss */
+/* line 424  */
 td,
 th {
   padding: 0;
@@ -281,7 +279,7 @@ th {
 
 /*! Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css */
 @media print {
-  /* line 9, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_print.scss */
+  /* line 9   */
   *,
   *:before,
   *:after {
@@ -291,52 +289,52 @@ th {
     box-shadow: none !important;
   }
 
-  /* line 18, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_print.scss */
+  /* line 18   */
   a,
   a:visited {
     text-decoration: underline;
   }
 
-  /* line 23, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_print.scss */
+  /* line 23   */
   a[href]:after {
     content: " (" attr(href) ")";
   }
 
-  /* line 27, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_print.scss */
+  /* line 27   */
   abbr[title]:after {
     content: " (" attr(title) ")";
   }
 
-  /* line 33, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_print.scss */
+  /* line 33   */
   a[href^="#"]:after,
   a[href^="javascript:"]:after {
     content: "";
   }
 
-  /* line 38, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_print.scss */
+  /* line 38   */
   pre,
   blockquote {
     border: 1px solid #999;
     page-break-inside: avoid;
   }
 
-  /* line 44, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_print.scss */
+  /* line 44   */
   thead {
     display: table-header-group;
   }
 
-  /* line 48, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_print.scss */
+  /* line 48   */
   tr,
   img {
     page-break-inside: avoid;
   }
 
-  /* line 53, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_print.scss */
+  /* line 53   */
   img {
     max-width: 100% !important;
   }
 
-  /* line 57, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_print.scss */
+  /* line 57   */
   p,
   h2,
   h3 {
@@ -344,39 +342,39 @@ th {
     widows: 3;
   }
 
-  /* line 64, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_print.scss */
+  /* line 64   */
   h2,
   h3 {
     page-break-after: avoid;
   }
 
-  /* line 72, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_print.scss */
+  /* line 72   */
   .navbar {
     display: none;
   }
 
-  /* line 77, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_print.scss */
+  /* line 77   */
   .btn > .caret,
   .dropup > .btn > .caret {
     border-top-color: #000 !important;
   }
 
-  /* line 81, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_print.scss */
+  /* line 81   */
   .label {
     border: 1px solid #000;
   }
 
-  /* line 85, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_print.scss */
+  /* line 85   */
   .table {
     border-collapse: collapse !important;
   }
-  /* line 88, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_print.scss */
+  /* line 88   */
   .table td,
   .table th {
     background-color: #fff !important;
   }
 
-  /* line 94, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_print.scss */
+  /* line 94   */
   .table-bordered th,
   .table-bordered td {
     border: 1px solid #ddd !important;
@@ -396,7 +394,7 @@ th {
     url("/assets/bootstrap/glyphicons-halflings-regular-42f60659d265c1a3c30f9fa42abcbb56bd4a53af4d83d316d6dd7a36903c43e5.svg#glyphicons_halflingsregular")
       format("svg");
 }
-/* line 24, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 24   */
 .glyphicon {
   position: relative;
   top: 1px;
@@ -409,1313 +407,1313 @@ th {
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* line 37, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 37   */
 .glyphicon-asterisk:before {
   content: "\002a";
 }
 
-/* line 38, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 38   */
 .glyphicon-plus:before {
   content: "\002b";
 }
 
-/* line 40, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 40   */
 .glyphicon-euro:before,
 .glyphicon-eur:before {
   content: "\20ac";
 }
 
-/* line 41, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 41   */
 .glyphicon-minus:before {
   content: "\2212";
 }
 
-/* line 42, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 42   */
 .glyphicon-cloud:before {
   content: "\2601";
 }
 
-/* line 43, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 43   */
 .glyphicon-envelope:before {
   content: "\2709";
 }
 
-/* line 44, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 44   */
 .glyphicon-pencil:before {
   content: "\270f";
 }
 
-/* line 45, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 45   */
 .glyphicon-glass:before {
   content: "\e001";
 }
 
-/* line 46, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 46   */
 .glyphicon-music:before {
   content: "\e002";
 }
 
-/* line 47, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 47   */
 .glyphicon-search:before {
   content: "\e003";
 }
 
-/* line 48, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 48   */
 .glyphicon-heart:before {
   content: "\e005";
 }
 
-/* line 49, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 49   */
 .glyphicon-star:before {
   content: "\e006";
 }
 
-/* line 50, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 50   */
 .glyphicon-star-empty:before {
   content: "\e007";
 }
 
-/* line 51, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 51   */
 .glyphicon-user:before {
   content: "\e008";
 }
 
-/* line 52, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 52   */
 .glyphicon-film:before {
   content: "\e009";
 }
 
-/* line 53, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 53   */
 .glyphicon-th-large:before {
   content: "\e010";
 }
 
-/* line 54, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 54   */
 .glyphicon-th:before {
   content: "\e011";
 }
 
-/* line 55, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 55   */
 .glyphicon-th-list:before {
   content: "\e012";
 }
 
-/* line 56, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 56   */
 .glyphicon-ok:before {
   content: "\e013";
 }
 
-/* line 57, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 57   */
 .glyphicon-remove:before {
   content: "\e014";
 }
 
-/* line 58, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 58   */
 .glyphicon-zoom-in:before {
   content: "\e015";
 }
 
-/* line 59, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 59   */
 .glyphicon-zoom-out:before {
   content: "\e016";
 }
 
-/* line 60, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 60   */
 .glyphicon-off:before {
   content: "\e017";
 }
 
-/* line 61, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 61   */
 .glyphicon-signal:before {
   content: "\e018";
 }
 
-/* line 62, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 62   */
 .glyphicon-cog:before {
   content: "\e019";
 }
 
-/* line 63, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 63   */
 .glyphicon-trash:before {
   content: "\e020";
 }
 
-/* line 64, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 64   */
 .glyphicon-home:before {
   content: "\e021";
 }
 
-/* line 65, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 65   */
 .glyphicon-file:before {
   content: "\e022";
 }
 
-/* line 66, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 66   */
 .glyphicon-time:before {
   content: "\e023";
 }
 
-/* line 67, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 67   */
 .glyphicon-road:before {
   content: "\e024";
 }
 
-/* line 68, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 68   */
 .glyphicon-download-alt:before {
   content: "\e025";
 }
 
-/* line 69, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 69   */
 .glyphicon-download:before {
   content: "\e026";
 }
 
-/* line 70, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 70   */
 .glyphicon-upload:before {
   content: "\e027";
 }
 
-/* line 71, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 71   */
 .glyphicon-inbox:before {
   content: "\e028";
 }
 
-/* line 72, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 72   */
 .glyphicon-play-circle:before {
   content: "\e029";
 }
 
-/* line 73, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 73   */
 .glyphicon-repeat:before {
   content: "\e030";
 }
 
-/* line 74, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 74   */
 .glyphicon-refresh:before {
   content: "\e031";
 }
 
-/* line 75, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 75   */
 .glyphicon-list-alt:before {
   content: "\e032";
 }
 
-/* line 76, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 76   */
 .glyphicon-lock:before {
   content: "\e033";
 }
 
-/* line 77, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 77   */
 .glyphicon-flag:before {
   content: "\e034";
 }
 
-/* line 78, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 78   */
 .glyphicon-headphones:before {
   content: "\e035";
 }
 
-/* line 79, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 79   */
 .glyphicon-volume-off:before {
   content: "\e036";
 }
 
-/* line 80, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 80   */
 .glyphicon-volume-down:before {
   content: "\e037";
 }
 
-/* line 81, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 81   */
 .glyphicon-volume-up:before {
   content: "\e038";
 }
 
-/* line 82, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 82   */
 .glyphicon-qrcode:before {
   content: "\e039";
 }
 
-/* line 83, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 83   */
 .glyphicon-barcode:before {
   content: "\e040";
 }
 
-/* line 84, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 84   */
 .glyphicon-tag:before {
   content: "\e041";
 }
 
-/* line 85, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 85   */
 .glyphicon-tags:before {
   content: "\e042";
 }
 
-/* line 86, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 86   */
 .glyphicon-book:before {
   content: "\e043";
 }
 
-/* line 87, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 87   */
 .glyphicon-bookmark:before {
   content: "\e044";
 }
 
-/* line 88, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 88   */
 .glyphicon-print:before {
   content: "\e045";
 }
 
-/* line 89, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 89   */
 .glyphicon-camera:before {
   content: "\e046";
 }
 
-/* line 90, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 90   */
 .glyphicon-font:before {
   content: "\e047";
 }
 
-/* line 91, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 91   */
 .glyphicon-bold:before {
   content: "\e048";
 }
 
-/* line 92, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 92   */
 .glyphicon-italic:before {
   content: "\e049";
 }
 
-/* line 93, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 93   */
 .glyphicon-text-height:before {
   content: "\e050";
 }
 
-/* line 94, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 94   */
 .glyphicon-text-width:before {
   content: "\e051";
 }
 
-/* line 95, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 95   */
 .glyphicon-align-left:before {
   content: "\e052";
 }
 
-/* line 96, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 96   */
 .glyphicon-align-center:before {
   content: "\e053";
 }
 
-/* line 97, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 97   */
 .glyphicon-align-right:before {
   content: "\e054";
 }
 
-/* line 98, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 98   */
 .glyphicon-align-justify:before {
   content: "\e055";
 }
 
-/* line 99, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 99   */
 .glyphicon-list:before {
   content: "\e056";
 }
 
-/* line 100, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 100   */
 .glyphicon-indent-left:before {
   content: "\e057";
 }
 
-/* line 101, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 101   */
 .glyphicon-indent-right:before {
   content: "\e058";
 }
 
-/* line 102, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 102   */
 .glyphicon-facetime-video:before {
   content: "\e059";
 }
 
-/* line 103, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 103   */
 .glyphicon-picture:before {
   content: "\e060";
 }
 
-/* line 104, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 104   */
 .glyphicon-map-marker:before {
   content: "\e062";
 }
 
-/* line 105, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 105   */
 .glyphicon-adjust:before {
   content: "\e063";
 }
 
-/* line 106, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 106   */
 .glyphicon-tint:before {
   content: "\e064";
 }
 
-/* line 107, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 107   */
 .glyphicon-edit:before {
   content: "\e065";
 }
 
-/* line 108, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 108   */
 .glyphicon-share:before {
   content: "\e066";
 }
 
-/* line 109, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 109   */
 .glyphicon-check:before {
   content: "\e067";
 }
 
-/* line 110, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 110   */
 .glyphicon-move:before {
   content: "\e068";
 }
 
-/* line 111, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 111   */
 .glyphicon-step-backward:before {
   content: "\e069";
 }
 
-/* line 112, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 112   */
 .glyphicon-fast-backward:before {
   content: "\e070";
 }
 
-/* line 113, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 113   */
 .glyphicon-backward:before {
   content: "\e071";
 }
 
-/* line 114, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 114   */
 .glyphicon-play:before {
   content: "\e072";
 }
 
-/* line 115, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 115   */
 .glyphicon-pause:before {
   content: "\e073";
 }
 
-/* line 116, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 116   */
 .glyphicon-stop:before {
   content: "\e074";
 }
 
-/* line 117, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 117   */
 .glyphicon-forward:before {
   content: "\e075";
 }
 
-/* line 118, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 118   */
 .glyphicon-fast-forward:before {
   content: "\e076";
 }
 
-/* line 119, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 119   */
 .glyphicon-step-forward:before {
   content: "\e077";
 }
 
-/* line 120, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 120   */
 .glyphicon-eject:before {
   content: "\e078";
 }
 
-/* line 121, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 121   */
 .glyphicon-chevron-left:before {
   content: "\e079";
 }
 
-/* line 122, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 122   */
 .glyphicon-chevron-right:before {
   content: "\e080";
 }
 
-/* line 123, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 123   */
 .glyphicon-plus-sign:before {
   content: "\e081";
 }
 
-/* line 124, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 124   */
 .glyphicon-minus-sign:before {
   content: "\e082";
 }
 
-/* line 125, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 125   */
 .glyphicon-remove-sign:before {
   content: "\e083";
 }
 
-/* line 126, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 126   */
 .glyphicon-ok-sign:before {
   content: "\e084";
 }
 
-/* line 127, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 127   */
 .glyphicon-question-sign:before {
   content: "\e085";
 }
 
-/* line 128, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 128   */
 .glyphicon-info-sign:before {
   content: "\e086";
 }
 
-/* line 129, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 129   */
 .glyphicon-screenshot:before {
   content: "\e087";
 }
 
-/* line 130, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 130   */
 .glyphicon-remove-circle:before {
   content: "\e088";
 }
 
-/* line 131, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 131   */
 .glyphicon-ok-circle:before {
   content: "\e089";
 }
 
-/* line 132, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 132   */
 .glyphicon-ban-circle:before {
   content: "\e090";
 }
 
-/* line 133, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 133   */
 .glyphicon-arrow-left:before {
   content: "\e091";
 }
 
-/* line 134, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 134   */
 .glyphicon-arrow-right:before {
   content: "\e092";
 }
 
-/* line 135, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 135   */
 .glyphicon-arrow-up:before {
   content: "\e093";
 }
 
-/* line 136, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 136   */
 .glyphicon-arrow-down:before {
   content: "\e094";
 }
 
-/* line 137, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 137   */
 .glyphicon-share-alt:before {
   content: "\e095";
 }
 
-/* line 138, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 138   */
 .glyphicon-resize-full:before {
   content: "\e096";
 }
 
-/* line 139, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 139   */
 .glyphicon-resize-small:before {
   content: "\e097";
 }
 
-/* line 140, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 140   */
 .glyphicon-exclamation-sign:before {
   content: "\e101";
 }
 
-/* line 141, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 141   */
 .glyphicon-gift:before {
   content: "\e102";
 }
 
-/* line 142, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 142   */
 .glyphicon-leaf:before {
   content: "\e103";
 }
 
-/* line 143, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 143   */
 .glyphicon-fire:before {
   content: "\e104";
 }
 
-/* line 144, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 144   */
 .glyphicon-eye-open:before {
   content: "\e105";
 }
 
-/* line 145, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 145   */
 .glyphicon-eye-close:before {
   content: "\e106";
 }
 
-/* line 146, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 146   */
 .glyphicon-warning-sign:before {
   content: "\e107";
 }
 
-/* line 147, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 147   */
 .glyphicon-plane:before {
   content: "\e108";
 }
 
-/* line 148, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 148   */
 .glyphicon-calendar:before {
   content: "\e109";
 }
 
-/* line 149, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 149   */
 .glyphicon-random:before {
   content: "\e110";
 }
 
-/* line 150, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 150   */
 .glyphicon-comment:before {
   content: "\e111";
 }
 
-/* line 151, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 151   */
 .glyphicon-magnet:before {
   content: "\e112";
 }
 
-/* line 152, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 152   */
 .glyphicon-chevron-up:before {
   content: "\e113";
 }
 
-/* line 153, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 153   */
 .glyphicon-chevron-down:before {
   content: "\e114";
 }
 
-/* line 154, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 154   */
 .glyphicon-retweet:before {
   content: "\e115";
 }
 
-/* line 155, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 155   */
 .glyphicon-shopping-cart:before {
   content: "\e116";
 }
 
-/* line 156, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 156   */
 .glyphicon-folder-close:before {
   content: "\e117";
 }
 
-/* line 157, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 157   */
 .glyphicon-folder-open:before {
   content: "\e118";
 }
 
-/* line 158, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 158   */
 .glyphicon-resize-vertical:before {
   content: "\e119";
 }
 
-/* line 159, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 159   */
 .glyphicon-resize-horizontal:before {
   content: "\e120";
 }
 
-/* line 160, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 160   */
 .glyphicon-hdd:before {
   content: "\e121";
 }
 
-/* line 161, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 161   */
 .glyphicon-bullhorn:before {
   content: "\e122";
 }
 
-/* line 162, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 162   */
 .glyphicon-bell:before {
   content: "\e123";
 }
 
-/* line 163, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 163   */
 .glyphicon-certificate:before {
   content: "\e124";
 }
 
-/* line 164, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 164   */
 .glyphicon-thumbs-up:before {
   content: "\e125";
 }
 
-/* line 165, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 165   */
 .glyphicon-thumbs-down:before {
   content: "\e126";
 }
 
-/* line 166, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 166   */
 .glyphicon-hand-right:before {
   content: "\e127";
 }
 
-/* line 167, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 167   */
 .glyphicon-hand-left:before {
   content: "\e128";
 }
 
-/* line 168, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 168   */
 .glyphicon-hand-up:before {
   content: "\e129";
 }
 
-/* line 169, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 169   */
 .glyphicon-hand-down:before {
   content: "\e130";
 }
 
-/* line 170, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 170   */
 .glyphicon-circle-arrow-right:before {
   content: "\e131";
 }
 
-/* line 171, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 171   */
 .glyphicon-circle-arrow-left:before {
   content: "\e132";
 }
 
-/* line 172, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 172   */
 .glyphicon-circle-arrow-up:before {
   content: "\e133";
 }
 
-/* line 173, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 173   */
 .glyphicon-circle-arrow-down:before {
   content: "\e134";
 }
 
-/* line 174, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 174   */
 .glyphicon-globe:before {
   content: "\e135";
 }
 
-/* line 175, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 175   */
 .glyphicon-wrench:before {
   content: "\e136";
 }
 
-/* line 176, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 176   */
 .glyphicon-tasks:before {
   content: "\e137";
 }
 
-/* line 177, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 177   */
 .glyphicon-filter:before {
   content: "\e138";
 }
 
-/* line 178, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 178   */
 .glyphicon-briefcase:before {
   content: "\e139";
 }
 
-/* line 179, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 179   */
 .glyphicon-fullscreen:before {
   content: "\e140";
 }
 
-/* line 180, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 180   */
 .glyphicon-dashboard:before {
   content: "\e141";
 }
 
-/* line 181, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 181   */
 .glyphicon-paperclip:before {
   content: "\e142";
 }
 
-/* line 182, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 182   */
 .glyphicon-heart-empty:before {
   content: "\e143";
 }
 
-/* line 183, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 183   */
 .glyphicon-link:before {
   content: "\e144";
 }
 
-/* line 184, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 184   */
 .glyphicon-phone:before {
   content: "\e145";
 }
 
-/* line 185, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 185   */
 .glyphicon-pushpin:before {
   content: "\e146";
 }
 
-/* line 186, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 186   */
 .glyphicon-usd:before {
   content: "\e148";
 }
 
-/* line 187, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 187   */
 .glyphicon-gbp:before {
   content: "\e149";
 }
 
-/* line 188, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 188   */
 .glyphicon-sort:before {
   content: "\e150";
 }
 
-/* line 189, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 189   */
 .glyphicon-sort-by-alphabet:before {
   content: "\e151";
 }
 
-/* line 190, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 190   */
 .glyphicon-sort-by-alphabet-alt:before {
   content: "\e152";
 }
 
-/* line 191, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 191   */
 .glyphicon-sort-by-order:before {
   content: "\e153";
 }
 
-/* line 192, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 192   */
 .glyphicon-sort-by-order-alt:before {
   content: "\e154";
 }
 
-/* line 193, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 193   */
 .glyphicon-sort-by-attributes:before {
   content: "\e155";
 }
 
-/* line 194, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 194   */
 .glyphicon-sort-by-attributes-alt:before {
   content: "\e156";
 }
 
-/* line 195, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 195   */
 .glyphicon-unchecked:before {
   content: "\e157";
 }
 
-/* line 196, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 196   */
 .glyphicon-expand:before {
   content: "\e158";
 }
 
-/* line 197, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 197   */
 .glyphicon-collapse-down:before {
   content: "\e159";
 }
 
-/* line 198, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 198   */
 .glyphicon-collapse-up:before {
   content: "\e160";
 }
 
-/* line 199, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 199   */
 .glyphicon-log-in:before {
   content: "\e161";
 }
 
-/* line 200, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 200   */
 .glyphicon-flash:before {
   content: "\e162";
 }
 
-/* line 201, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 201   */
 .glyphicon-log-out:before {
   content: "\e163";
 }
 
-/* line 202, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 202   */
 .glyphicon-new-window:before {
   content: "\e164";
 }
 
-/* line 203, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 203   */
 .glyphicon-record:before {
   content: "\e165";
 }
 
-/* line 204, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 204   */
 .glyphicon-save:before {
   content: "\e166";
 }
 
-/* line 205, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 205   */
 .glyphicon-open:before {
   content: "\e167";
 }
 
-/* line 206, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 206   */
 .glyphicon-saved:before {
   content: "\e168";
 }
 
-/* line 207, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 207   */
 .glyphicon-import:before {
   content: "\e169";
 }
 
-/* line 208, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 208   */
 .glyphicon-export:before {
   content: "\e170";
 }
 
-/* line 209, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 209   */
 .glyphicon-send:before {
   content: "\e171";
 }
 
-/* line 210, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 210   */
 .glyphicon-floppy-disk:before {
   content: "\e172";
 }
 
-/* line 211, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 211   */
 .glyphicon-floppy-saved:before {
   content: "\e173";
 }
 
-/* line 212, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 212   */
 .glyphicon-floppy-remove:before {
   content: "\e174";
 }
 
-/* line 213, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 213   */
 .glyphicon-floppy-save:before {
   content: "\e175";
 }
 
-/* line 214, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 214   */
 .glyphicon-floppy-open:before {
   content: "\e176";
 }
 
-/* line 215, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 215   */
 .glyphicon-credit-card:before {
   content: "\e177";
 }
 
-/* line 216, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 216   */
 .glyphicon-transfer:before {
   content: "\e178";
 }
 
-/* line 217, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 217   */
 .glyphicon-cutlery:before {
   content: "\e179";
 }
 
-/* line 218, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 218   */
 .glyphicon-header:before {
   content: "\e180";
 }
 
-/* line 219, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 219   */
 .glyphicon-compressed:before {
   content: "\e181";
 }
 
-/* line 220, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 220   */
 .glyphicon-earphone:before {
   content: "\e182";
 }
 
-/* line 221, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 221   */
 .glyphicon-phone-alt:before {
   content: "\e183";
 }
 
-/* line 222, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 222   */
 .glyphicon-tower:before {
   content: "\e184";
 }
 
-/* line 223, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 223   */
 .glyphicon-stats:before {
   content: "\e185";
 }
 
-/* line 224, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 224   */
 .glyphicon-sd-video:before {
   content: "\e186";
 }
 
-/* line 225, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 225   */
 .glyphicon-hd-video:before {
   content: "\e187";
 }
 
-/* line 226, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 226   */
 .glyphicon-subtitles:before {
   content: "\e188";
 }
 
-/* line 227, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 227   */
 .glyphicon-sound-stereo:before {
   content: "\e189";
 }
 
-/* line 228, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 228   */
 .glyphicon-sound-dolby:before {
   content: "\e190";
 }
 
-/* line 229, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 229   */
 .glyphicon-sound-5-1:before {
   content: "\e191";
 }
 
-/* line 230, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 230   */
 .glyphicon-sound-6-1:before {
   content: "\e192";
 }
 
-/* line 231, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 231   */
 .glyphicon-sound-7-1:before {
   content: "\e193";
 }
 
-/* line 232, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 232   */
 .glyphicon-copyright-mark:before {
   content: "\e194";
 }
 
-/* line 233, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 233   */
 .glyphicon-registration-mark:before {
   content: "\e195";
 }
 
-/* line 234, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 234   */
 .glyphicon-cloud-download:before {
   content: "\e197";
 }
 
-/* line 235, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 235   */
 .glyphicon-cloud-upload:before {
   content: "\e198";
 }
 
-/* line 236, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 236   */
 .glyphicon-tree-conifer:before {
   content: "\e199";
 }
 
-/* line 237, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 237   */
 .glyphicon-tree-deciduous:before {
   content: "\e200";
 }
 
-/* line 238, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 238   */
 .glyphicon-cd:before {
   content: "\e201";
 }
 
-/* line 239, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 239   */
 .glyphicon-save-file:before {
   content: "\e202";
 }
 
-/* line 240, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 240   */
 .glyphicon-open-file:before {
   content: "\e203";
 }
 
-/* line 241, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 241   */
 .glyphicon-level-up:before {
   content: "\e204";
 }
 
-/* line 242, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 242   */
 .glyphicon-copy:before {
   content: "\e205";
 }
 
-/* line 243, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 243   */
 .glyphicon-paste:before {
   content: "\e206";
 }
 
-/* line 252, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 252   */
 .glyphicon-alert:before {
   content: "\e209";
 }
 
-/* line 253, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 253   */
 .glyphicon-equalizer:before {
   content: "\e210";
 }
 
-/* line 254, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 254   */
 .glyphicon-king:before {
   content: "\e211";
 }
 
-/* line 255, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 255   */
 .glyphicon-queen:before {
   content: "\e212";
 }
 
-/* line 256, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 256   */
 .glyphicon-pawn:before {
   content: "\e213";
 }
 
-/* line 257, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 257   */
 .glyphicon-bishop:before {
   content: "\e214";
 }
 
-/* line 258, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 258   */
 .glyphicon-knight:before {
   content: "\e215";
 }
 
-/* line 259, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 259   */
 .glyphicon-baby-formula:before {
   content: "\e216";
 }
 
-/* line 260, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 260   */
 .glyphicon-tent:before {
   content: "\26fa";
 }
 
-/* line 261, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 261   */
 .glyphicon-blackboard:before {
   content: "\e218";
 }
 
-/* line 262, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 262   */
 .glyphicon-bed:before {
   content: "\e219";
 }
 
-/* line 263, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 263   */
 .glyphicon-apple:before {
   content: "\f8ff";
 }
 
-/* line 264, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 264   */
 .glyphicon-erase:before {
   content: "\e221";
 }
 
-/* line 265, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 265   */
 .glyphicon-hourglass:before {
   content: "\231b";
 }
 
-/* line 266, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 266   */
 .glyphicon-lamp:before {
   content: "\e223";
 }
 
-/* line 267, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 267   */
 .glyphicon-duplicate:before {
   content: "\e224";
 }
 
-/* line 268, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 268   */
 .glyphicon-piggy-bank:before {
   content: "\e225";
 }
 
-/* line 269, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 269   */
 .glyphicon-scissors:before {
   content: "\e226";
 }
 
-/* line 270, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 270   */
 .glyphicon-bitcoin:before {
   content: "\e227";
 }
 
-/* line 271, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 271   */
 .glyphicon-btc:before {
   content: "\e227";
 }
 
-/* line 272, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 272   */
 .glyphicon-xbt:before {
   content: "\e227";
 }
 
-/* line 273, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 273   */
 .glyphicon-yen:before {
   content: "\00a5";
 }
 
-/* line 274, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 274   */
 .glyphicon-jpy:before {
   content: "\00a5";
 }
 
-/* line 275, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 275   */
 .glyphicon-ruble:before {
   content: "\20bd";
 }
 
-/* line 276, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 276   */
 .glyphicon-rub:before {
   content: "\20bd";
 }
 
-/* line 277, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 277   */
 .glyphicon-scale:before {
   content: "\e230";
 }
 
-/* line 278, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 278   */
 .glyphicon-ice-lolly:before {
   content: "\e231";
 }
 
-/* line 279, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 279   */
 .glyphicon-ice-lolly-tasted:before {
   content: "\e232";
 }
 
-/* line 280, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 280   */
 .glyphicon-education:before {
   content: "\e233";
 }
 
-/* line 281, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 281   */
 .glyphicon-option-horizontal:before {
   content: "\e234";
 }
 
-/* line 282, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 282   */
 .glyphicon-option-vertical:before {
   content: "\e235";
 }
 
-/* line 283, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 283   */
 .glyphicon-menu-hamburger:before {
   content: "\e236";
 }
 
-/* line 284, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 284   */
 .glyphicon-modal-window:before {
   content: "\e237";
 }
 
-/* line 285, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 285   */
 .glyphicon-oil:before {
   content: "\e238";
 }
 
-/* line 286, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 286   */
 .glyphicon-grain:before {
   content: "\e239";
 }
 
-/* line 287, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 287   */
 .glyphicon-sunglasses:before {
   content: "\e240";
 }
 
-/* line 288, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 288   */
 .glyphicon-text-size:before {
   content: "\e241";
 }
 
-/* line 289, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 289   */
 .glyphicon-text-color:before {
   content: "\e242";
 }
 
-/* line 290, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 290   */
 .glyphicon-text-background:before {
   content: "\e243";
 }
 
-/* line 291, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 291   */
 .glyphicon-object-align-top:before {
   content: "\e244";
 }
 
-/* line 292, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 292   */
 .glyphicon-object-align-bottom:before {
   content: "\e245";
 }
 
-/* line 293, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 293   */
 .glyphicon-object-align-horizontal:before {
   content: "\e246";
 }
 
-/* line 294, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 294   */
 .glyphicon-object-align-left:before {
   content: "\e247";
 }
 
-/* line 295, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 295   */
 .glyphicon-object-align-vertical:before {
   content: "\e248";
 }
 
-/* line 296, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 296   */
 .glyphicon-object-align-right:before {
   content: "\e249";
 }
 
-/* line 297, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 297   */
 .glyphicon-triangle-right:before {
   content: "\e250";
 }
 
-/* line 298, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 298   */
 .glyphicon-triangle-left:before {
   content: "\e251";
 }
 
-/* line 299, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 299   */
 .glyphicon-triangle-bottom:before {
   content: "\e252";
 }
 
-/* line 300, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 300   */
 .glyphicon-triangle-top:before {
   content: "\e253";
 }
 
-/* line 301, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 301   */
 .glyphicon-console:before {
   content: "\e254";
 }
 
-/* line 302, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 302   */
 .glyphicon-superscript:before {
   content: "\e255";
 }
 
-/* line 303, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 303   */
 .glyphicon-subscript:before {
   content: "\e256";
 }
 
-/* line 304, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 304   */
 .glyphicon-menu-left:before {
   content: "\e257";
 }
 
-/* line 305, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 305   */
 .glyphicon-menu-right:before {
   content: "\e258";
 }
 
-/* line 306, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 306   */
 .glyphicon-menu-down:before {
   content: "\e259";
 }
 
-/* line 307, /Users/henryzhu/.rvm/gems/ruby-2.6.6/gems/bootstrap-sass-3.4.1/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 307   */
 .glyphicon-menu-up:before {
   content: "\e260";
 }
