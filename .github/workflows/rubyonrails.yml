@@ -1,4 +1,4 @@
-# This workflow uses actions that are not certified by GitHub.  They are
+# This workflow uses actions that are not certified by GitHub. They are
 # provided by a third-party and are governed by separate terms of service,
 # privacy policy, and support documentation.
 #
@@ -32,6 +32,7 @@ jobs:
       - name: Install Ruby and gems
         uses: ruby/setup-ruby@55283cc23133118229fd3f97f9336ee23a179fcf # v1.146.0
         with:
+          ruby-version: 2.7 # Add this line, replace 2.7 with your desired Ruby version
           bundler-cache: true
       # Add or replace database setup steps here
       - name: Set up database schema
@@ -48,6 +49,7 @@ jobs:
       - name: Install Ruby and gems
         uses: ruby/setup-ruby@55283cc23133118229fd3f97f9336ee23a179fcf # v1.146.0
         with:
+          ruby-version: 2.7
           bundler-cache: true
       # Add or replace any other lints here
       - name: Security audit dependencies
